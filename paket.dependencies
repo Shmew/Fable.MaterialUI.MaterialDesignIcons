@@ -1,0 +1,18 @@
+source https://api.nuget.org/v3/index.json
+framework: netstandard2.0
+storage: none
+
+nuget FSharp.Core >= 4 redirects: force, lowest_matching: true
+nuget Fable.Core >= 2 lowest_matching: true
+nuget Fable.React >= 4 lowest_matching: true
+
+group FakeBuild
+  source https://api.nuget.org/v3/index.json
+  framework: netstandard2.0
+  storage: none
+
+  clitool dotnet-fake
+  clitool dotnet-fable
+  nuget Fake.Core.Target
+  nuget Fake.DotNet.Cli
+  nuget Fake.JavaScript.Yarn
