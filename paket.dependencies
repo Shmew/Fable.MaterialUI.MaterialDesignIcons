@@ -2,9 +2,9 @@ source https://api.nuget.org/v3/index.json
 framework: netstandard2.0
 storage: none
 
-nuget FSharp.Core >= 4 redirects: force, lowest_matching: true
-nuget Fable.Core >= 2 lowest_matching: true
-nuget Fable.React >= 4 lowest_matching: true
+nuget FSharp.Core ~> 4 redirects: force, lowest_matching: true
+nuget Fable.Core ~> 3.0 lowest_matching: true
+nuget Fable.React ~> 5.2 lowest_matching: true
 
 group FakeBuild
   source https://api.nuget.org/v3/index.json

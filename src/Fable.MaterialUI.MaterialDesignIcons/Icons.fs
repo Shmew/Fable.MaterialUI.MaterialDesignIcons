@@ -7,8 +7,7 @@ module Fable.MaterialUI.MaterialDesignIcons
 
 open Fable.Core
 open Fable.Core.JsInterop
-open Fable.Helpers.React
-open Fable.Import.React
+open Fable.React
 
 let inline accessPointIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/AccessPoint" (keyValueList CaseRules.LowerFirst b) []
@@ -48,6 +47,12 @@ let inline accountBadgeAlertIcon b : ReactElement =
 
 let inline accountBadgeAlertOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/AccountBadgeAlertOutline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline accountBadgeHorizontalIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/AccountBadgeHorizontal" (keyValueList CaseRules.LowerFirst b) []
+
+let inline accountBadgeHorizontalOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/AccountBadgeHorizontalOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline accountBadgeOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/AccountBadgeOutline" (keyValueList CaseRules.LowerFirst b) []
@@ -1192,6 +1197,9 @@ let inline autoUploadIcon b : ReactElement =
 let inline avTimerIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/AvTimer" (keyValueList CaseRules.LowerFirst b) []
 
+let inline awsIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Aws" (keyValueList CaseRules.LowerFirst b) []
+
 let inline axeIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Axe" (keyValueList CaseRules.LowerFirst b) []
 
@@ -1272,6 +1280,18 @@ let inline backupRestoreIcon b : ReactElement =
 
 let inline badmintonIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Badminton" (keyValueList CaseRules.LowerFirst b) []
+
+let inline bagPersonalIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/BagPersonal" (keyValueList CaseRules.LowerFirst b) []
+
+let inline bagPersonalOffIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/BagPersonalOff" (keyValueList CaseRules.LowerFirst b) []
+
+let inline bagPersonalOffOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/BagPersonalOffOutline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline bagPersonalOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/BagPersonalOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline balloonIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Balloon" (keyValueList CaseRules.LowerFirst b) []
@@ -1594,6 +1614,9 @@ let inline betaIcon b : ReactElement =
 let inline betamaxIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Betamax" (keyValueList CaseRules.LowerFirst b) []
 
+let inline biathlonIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Biathlon" (keyValueList CaseRules.LowerFirst b) []
+
 let inline bibleIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Bible" (keyValueList CaseRules.LowerFirst b) []
 
@@ -1713,6 +1736,12 @@ let inline bookmarkMinusIcon b : ReactElement =
 
 let inline bookmarkMinusOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/BookmarkMinusOutline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline bookmarkMultipleIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/BookmarkMultiple" (keyValueList CaseRules.LowerFirst b) []
+
+let inline bookmarkMultipleOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/BookmarkMultipleOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline bookmarkMusicIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/BookmarkMusic" (keyValueList CaseRules.LowerFirst b) []
@@ -2089,6 +2118,12 @@ let inline calendarImportIcon b : ReactElement =
 let inline calendarMinusIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CalendarMinus" (keyValueList CaseRules.LowerFirst b) []
 
+let inline calendarMonthIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CalendarMonth" (keyValueList CaseRules.LowerFirst b) []
+
+let inline calendarMonthOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CalendarMonthOutline" (keyValueList CaseRules.LowerFirst b) []
+
 let inline calendarMultipleIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CalendarMultiple" (keyValueList CaseRules.LowerFirst b) []
 
@@ -2227,6 +2262,12 @@ let inline cameraRearIcon b : ReactElement =
 let inline cameraRearVariantIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CameraRearVariant" (keyValueList CaseRules.LowerFirst b) []
 
+let inline cameraRetakeIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CameraRetake" (keyValueList CaseRules.LowerFirst b) []
+
+let inline cameraRetakeOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CameraRetakeOutline" (keyValueList CaseRules.LowerFirst b) []
+
 let inline cameraSwitchIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CameraSwitch" (keyValueList CaseRules.LowerFirst b) []
 
@@ -2259,6 +2300,9 @@ let inline carIcon b : ReactElement =
 
 let inline caravanIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Caravan" (keyValueList CaseRules.LowerFirst b) []
+
+let inline carBackIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CarBack" (keyValueList CaseRules.LowerFirst b) []
 
 let inline carBatteryIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CarBattery" (keyValueList CaseRules.LowerFirst b) []
@@ -2377,6 +2421,9 @@ let inline carLimousineIcon b : ReactElement =
 let inline carMultipleIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CarMultiple" (keyValueList CaseRules.LowerFirst b) []
 
+let inline carOffIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CarOff" (keyValueList CaseRules.LowerFirst b) []
+
 let inline carParkingLightsIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CarParkingLights" (keyValueList CaseRules.LowerFirst b) []
 
@@ -2463,6 +2510,9 @@ let inline castIcon b : ReactElement =
 
 let inline castConnectedIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CastConnected" (keyValueList CaseRules.LowerFirst b) []
+
+let inline castEducationIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CastEducation" (keyValueList CaseRules.LowerFirst b) []
 
 let inline castleIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Castle" (keyValueList CaseRules.LowerFirst b) []
@@ -2614,6 +2664,9 @@ let inline checkIcon b : ReactElement =
 let inline checkAllIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CheckAll" (keyValueList CaseRules.LowerFirst b) []
 
+let inline checkBoldIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CheckBold" (keyValueList CaseRules.LowerFirst b) []
+
 let inline checkbookIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Checkbook" (keyValueList CaseRules.LowerFirst b) []
 
@@ -2694,6 +2747,15 @@ let inline checkNetworkOutlineIcon b : ReactElement =
 
 let inline checkOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CheckOutline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline checkUnderlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CheckUnderline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline checkUnderlineCircleIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CheckUnderlineCircle" (keyValueList CaseRules.LowerFirst b) []
+
+let inline checkUnderlineCircleOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CheckUnderlineCircleOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline chefHatIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/ChefHat" (keyValueList CaseRules.LowerFirst b) []
@@ -2862,6 +2924,9 @@ let inline circleSlice8Icon b : ReactElement =
 
 let inline circleSmallIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CircleSmall" (keyValueList CaseRules.LowerFirst b) []
+
+let inline circularSawIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CircularSaw" (keyValueList CaseRules.LowerFirst b) []
 
 let inline ciscoWebexIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/CiscoWebex" (keyValueList CaseRules.LowerFirst b) []
@@ -3160,6 +3225,21 @@ let inline collapseAllOutlineIcon b : ReactElement =
 let inline colorHelperIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/ColorHelper" (keyValueList CaseRules.LowerFirst b) []
 
+let inline commaIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Comma" (keyValueList CaseRules.LowerFirst b) []
+
+let inline commaBoxIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CommaBox" (keyValueList CaseRules.LowerFirst b) []
+
+let inline commaBoxOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CommaBoxOutline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline commaCircleIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CommaCircle" (keyValueList CaseRules.LowerFirst b) []
+
+let inline commaCircleOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/CommaCircleOutline" (keyValueList CaseRules.LowerFirst b) []
+
 let inline commentIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Comment" (keyValueList CaseRules.LowerFirst b) []
 
@@ -3318,6 +3398,12 @@ let inline contentSaveEditIcon b : ReactElement =
 
 let inline contentSaveEditOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/ContentSaveEditOutline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline contentSaveMoveIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/ContentSaveMove" (keyValueList CaseRules.LowerFirst b) []
+
+let inline contentSaveMoveOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/ContentSaveMoveOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline contentSaveOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/ContentSaveOutline" (keyValueList CaseRules.LowerFirst b) []
@@ -4354,6 +4440,9 @@ let inline fileChartIcon b : ReactElement =
 let inline fileCheckIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FileCheck" (keyValueList CaseRules.LowerFirst b) []
 
+let inline fileCheckOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/FileCheckOutline" (keyValueList CaseRules.LowerFirst b) []
+
 let inline fileCloudIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FileCloud" (keyValueList CaseRules.LowerFirst b) []
 
@@ -4435,6 +4524,9 @@ let inline fileMultipleIcon b : ReactElement =
 let inline fileMusicIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FileMusic" (keyValueList CaseRules.LowerFirst b) []
 
+let inline fileMusicOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/FileMusicOutline" (keyValueList CaseRules.LowerFirst b) []
+
 let inline fileOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FileOutline" (keyValueList CaseRules.LowerFirst b) []
 
@@ -4443,6 +4535,9 @@ let inline filePdfIcon b : ReactElement =
 
 let inline filePdfBoxIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FilePdfBox" (keyValueList CaseRules.LowerFirst b) []
+
+let inline filePdfOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/FilePdfOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline filePercentIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FilePercent" (keyValueList CaseRules.LowerFirst b) []
@@ -4504,6 +4599,9 @@ let inline fileUploadOutlineIcon b : ReactElement =
 let inline fileVideoIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FileVideo" (keyValueList CaseRules.LowerFirst b) []
 
+let inline fileVideoOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/FileVideoOutline" (keyValueList CaseRules.LowerFirst b) []
+
 let inline fileWordIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FileWord" (keyValueList CaseRules.LowerFirst b) []
 
@@ -4555,8 +4653,17 @@ let inline firebaseIcon b : ReactElement =
 let inline firefoxIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Firefox" (keyValueList CaseRules.LowerFirst b) []
 
+let inline fireplaceIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Fireplace" (keyValueList CaseRules.LowerFirst b) []
+
+let inline fireplaceOffIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/FireplaceOff" (keyValueList CaseRules.LowerFirst b) []
+
 let inline fireTruckIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FireTruck" (keyValueList CaseRules.LowerFirst b) []
+
+let inline fireworkIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Firework" (keyValueList CaseRules.LowerFirst b) []
 
 let inline fishIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Fish" (keyValueList CaseRules.LowerFirst b) []
@@ -4861,6 +4968,9 @@ let inline formatClearIcon b : ReactElement =
 let inline formatColorFillIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FormatColorFill" (keyValueList CaseRules.LowerFirst b) []
 
+let inline formatColorHighlightIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/FormatColorHighlight" (keyValueList CaseRules.LowerFirst b) []
+
 let inline formatColorTextIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FormatColorText" (keyValueList CaseRules.LowerFirst b) []
 
@@ -5032,6 +5142,9 @@ let inline formatTextRotationDownIcon b : ReactElement =
 let inline formatTextRotationNoneIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FormatTextRotationNone" (keyValueList CaseRules.LowerFirst b) []
 
+let inline formatTextVariantIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/FormatTextVariant" (keyValueList CaseRules.LowerFirst b) []
+
 let inline formatTextWrappingClipIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/FormatTextWrappingClip" (keyValueList CaseRules.LowerFirst b) []
 
@@ -5131,6 +5244,54 @@ let inline fuseBladeIcon b : ReactElement =
 let inline gamepadIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Gamepad" (keyValueList CaseRules.LowerFirst b) []
 
+let inline gamepadCircleIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadCircle" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadCircleDownIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadCircleDown" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadCircleLeftIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadCircleLeft" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadCircleOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadCircleOutline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadCircleRightIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadCircleRight" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadCircleUpIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadCircleUp" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadDownIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadDown" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadLeftIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadLeft" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadRightIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadRight" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadRoundIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadRound" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadRoundDownIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadRoundDown" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadRoundLeftIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadRoundLeft" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadRoundOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadRoundOutline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadRoundRightIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadRoundRight" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadRoundUpIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadRoundUp" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gamepadUpIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GamepadUp" (keyValueList CaseRules.LowerFirst b) []
+
 let inline gamepadVariantIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/GamepadVariant" (keyValueList CaseRules.LowerFirst b) []
 
@@ -5175,6 +5336,9 @@ let inline gateXnorIcon b : ReactElement =
 
 let inline gateXorIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/GateXor" (keyValueList CaseRules.LowerFirst b) []
+
+let inline gatsbyIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Gatsby" (keyValueList CaseRules.LowerFirst b) []
 
 let inline gaugeIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Gauge" (keyValueList CaseRules.LowerFirst b) []
@@ -5262,6 +5426,9 @@ let inline gifIcon b : ReactElement =
 
 let inline giftIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Gift" (keyValueList CaseRules.LowerFirst b) []
+
+let inline giftOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/GiftOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline gitIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Git" (keyValueList CaseRules.LowerFirst b) []
@@ -5461,6 +5628,9 @@ let inline gridLargeIcon b : ReactElement =
 let inline gridOffIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/GridOff" (keyValueList CaseRules.LowerFirst b) []
 
+let inline grillIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Grill" (keyValueList CaseRules.LowerFirst b) []
+
 let inline groupIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Group" (keyValueList CaseRules.LowerFirst b) []
 
@@ -5497,6 +5667,9 @@ let inline hammerIcon b : ReactElement =
 let inline handIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Hand" (keyValueList CaseRules.LowerFirst b) []
 
+let inline handLeftIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/HandLeft" (keyValueList CaseRules.LowerFirst b) []
+
 let inline handOkayIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/HandOkay" (keyValueList CaseRules.LowerFirst b) []
 
@@ -5517,6 +5690,12 @@ let inline handPointingRightIcon b : ReactElement =
 
 let inline handPointingUpIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/HandPointingUp" (keyValueList CaseRules.LowerFirst b) []
+
+let inline handRightIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/HandRight" (keyValueList CaseRules.LowerFirst b) []
+
+let inline handSawIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/HandSaw" (keyValueList CaseRules.LowerFirst b) []
 
 let inline hangerIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Hanger" (keyValueList CaseRules.LowerFirst b) []
@@ -5926,6 +6105,9 @@ let inline imageFilterTiltShiftIcon b : ReactElement =
 let inline imageFilterVintageIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/ImageFilterVintage" (keyValueList CaseRules.LowerFirst b) []
 
+let inline imageFrameIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/ImageFrame" (keyValueList CaseRules.LowerFirst b) []
+
 let inline imageMoveIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/ImageMove" (keyValueList CaseRules.LowerFirst b) []
 
@@ -6001,6 +6183,9 @@ let inline internetExplorerIcon b : ReactElement =
 let inline invertColorsIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/InvertColors" (keyValueList CaseRules.LowerFirst b) []
 
+let inline invertColorsOffIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/InvertColorsOff" (keyValueList CaseRules.LowerFirst b) []
+
 let inline ipIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Ip" (keyValueList CaseRules.LowerFirst b) []
 
@@ -6069,6 +6254,9 @@ let inline keyboardCloseIcon b : ReactElement =
 
 let inline keyboardOffIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/KeyboardOff" (keyValueList CaseRules.LowerFirst b) []
+
+let inline keyboardOffOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/KeyboardOffOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline keyboardOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/KeyboardOutline" (keyValueList CaseRules.LowerFirst b) []
@@ -6241,6 +6429,9 @@ let inline lavaLampIcon b : ReactElement =
 let inline layersIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Layers" (keyValueList CaseRules.LowerFirst b) []
 
+let inline layersMinusIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/LayersMinus" (keyValueList CaseRules.LowerFirst b) []
+
 let inline layersOffIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/LayersOff" (keyValueList CaseRules.LowerFirst b) []
 
@@ -6249,6 +6440,12 @@ let inline layersOffOutlineIcon b : ReactElement =
 
 let inline layersOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/LayersOutline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline layersPlusIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/LayersPlus" (keyValueList CaseRules.LowerFirst b) []
+
+let inline layersRemoveIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/LayersRemove" (keyValueList CaseRules.LowerFirst b) []
 
 let inline leadPencilIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/LeadPencil" (keyValueList CaseRules.LowerFirst b) []
@@ -6318,6 +6515,12 @@ let inline lifebuoyIcon b : ReactElement =
 
 let inline lightbulbIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Lightbulb" (keyValueList CaseRules.LowerFirst b) []
+
+let inline lightbulbOffIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/LightbulbOff" (keyValueList CaseRules.LowerFirst b) []
+
+let inline lightbulbOffOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/LightbulbOffOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline lightbulbOnIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/LightbulbOn" (keyValueList CaseRules.LowerFirst b) []
@@ -6838,6 +7041,9 @@ let inline monitorMultipleIcon b : ReactElement =
 let inline monitorOffIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/MonitorOff" (keyValueList CaseRules.LowerFirst b) []
 
+let inline monitorScreenshotIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/MonitorScreenshot" (keyValueList CaseRules.LowerFirst b) []
+
 let inline monitorStarIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/MonitorStar" (keyValueList CaseRules.LowerFirst b) []
 
@@ -7027,11 +7233,20 @@ let inline newspaperIcon b : ReactElement =
 let inline nfcIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Nfc" (keyValueList CaseRules.LowerFirst b) []
 
+let inline nfcOffIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/NfcOff" (keyValueList CaseRules.LowerFirst b) []
+
+let inline nfcSearchVariantIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/NfcSearchVariant" (keyValueList CaseRules.LowerFirst b) []
+
 let inline nfcTapIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/NfcTap" (keyValueList CaseRules.LowerFirst b) []
 
 let inline nfcVariantIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/NfcVariant" (keyValueList CaseRules.LowerFirst b) []
+
+let inline nfcVariantOffIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/NfcVariantOff" (keyValueList CaseRules.LowerFirst b) []
 
 let inline ninjaIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Ninja" (keyValueList CaseRules.LowerFirst b) []
@@ -7047,6 +7262,9 @@ let inline noteIcon b : ReactElement =
 
 let inline notebookIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Notebook" (keyValueList CaseRules.LowerFirst b) []
+
+let inline notebookMultipleIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/NotebookMultiple" (keyValueList CaseRules.LowerFirst b) []
 
 let inline noteMultipleIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/NoteMultiple" (keyValueList CaseRules.LowerFirst b) []
@@ -7543,6 +7761,9 @@ let inline pawOffIcon b : ReactElement =
 let inline paypalIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Paypal" (keyValueList CaseRules.LowerFirst b) []
 
+let inline pdfBoxIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/PdfBox" (keyValueList CaseRules.LowerFirst b) []
+
 let inline peaceIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Peace" (keyValueList CaseRules.LowerFirst b) []
 
@@ -7713,6 +7934,18 @@ let inline piBoxIcon b : ReactElement =
 
 let inline pickaxeIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Pickaxe" (keyValueList CaseRules.LowerFirst b) []
+
+let inline pictureInPictureBottomRightIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/PictureInPictureBottomRight" (keyValueList CaseRules.LowerFirst b) []
+
+let inline pictureInPictureBottomRightOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/PictureInPictureBottomRightOutline" (keyValueList CaseRules.LowerFirst b) []
+
+let inline pictureInPictureTopRightIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/PictureInPictureTopRight" (keyValueList CaseRules.LowerFirst b) []
+
+let inline pictureInPictureTopRightOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/PictureInPictureTopRightOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline pierIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Pier" (keyValueList CaseRules.LowerFirst b) []
@@ -8002,8 +8235,17 @@ let inline printerIcon b : ReactElement =
 let inline printer3DIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Printer3D" (keyValueList CaseRules.LowerFirst b) []
 
+let inline printer3DNozzleIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Printer3DNozzle" (keyValueList CaseRules.LowerFirst b) []
+
+let inline printer3DNozzleOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Printer3DNozzleOutline" (keyValueList CaseRules.LowerFirst b) []
+
 let inline printerAlertIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/PrinterAlert" (keyValueList CaseRules.LowerFirst b) []
+
+let inline printerOffIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/PrinterOff" (keyValueList CaseRules.LowerFirst b) []
 
 let inline printerSettingsIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/PrinterSettings" (keyValueList CaseRules.LowerFirst b) []
@@ -8182,6 +8424,12 @@ let inline recordPlayerIcon b : ReactElement =
 let inline recordRecIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/RecordRec" (keyValueList CaseRules.LowerFirst b) []
 
+let inline rectangleIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Rectangle" (keyValueList CaseRules.LowerFirst b) []
+
+let inline rectangleOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/RectangleOutline" (keyValueList CaseRules.LowerFirst b) []
+
 let inline recycleIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Recycle" (keyValueList CaseRules.LowerFirst b) []
 
@@ -8314,6 +8562,9 @@ let inline riceIcon b : ReactElement =
 let inline ringIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Ring" (keyValueList CaseRules.LowerFirst b) []
 
+let inline rivetIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Rivet" (keyValueList CaseRules.LowerFirst b) []
+
 let inline roadIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Road" (keyValueList CaseRules.LowerFirst b) []
 
@@ -8440,6 +8691,9 @@ let inline satelliteVariantIcon b : ReactElement =
 let inline sausageIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Sausage" (keyValueList CaseRules.LowerFirst b) []
 
+let inline sawBladeIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/SawBlade" (keyValueList CaseRules.LowerFirst b) []
+
 let inline saxophoneIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Saxophone" (keyValueList CaseRules.LowerFirst b) []
 
@@ -8547,6 +8801,12 @@ let inline securityIcon b : ReactElement =
 
 let inline securityNetworkIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/SecurityNetwork" (keyValueList CaseRules.LowerFirst b) []
+
+let inline seedIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Seed" (keyValueList CaseRules.LowerFirst b) []
+
+let inline seedOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/SeedOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline selectIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Select" (keyValueList CaseRules.LowerFirst b) []
@@ -8848,6 +9108,9 @@ let inline signalCellular3Icon b : ReactElement =
 let inline signalCellularOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/SignalCellularOutline" (keyValueList CaseRules.LowerFirst b) []
 
+let inline signalDistanceVariantIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/SignalDistanceVariant" (keyValueList CaseRules.LowerFirst b) []
+
 let inline signalHspaIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/SignalHspa" (keyValueList CaseRules.LowerFirst b) []
 
@@ -9100,6 +9363,9 @@ let inline spaIcon b : ReactElement =
 let inline spaceInvadersIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/SpaceInvaders" (keyValueList CaseRules.LowerFirst b) []
 
+let inline spadeIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Spade" (keyValueList CaseRules.LowerFirst b) []
+
 let inline spaOutlineIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/SpaOutline" (keyValueList CaseRules.LowerFirst b) []
 
@@ -9141,6 +9407,12 @@ let inline sprayIcon b : ReactElement =
 
 let inline sprayBottleIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/SprayBottle" (keyValueList CaseRules.LowerFirst b) []
+
+let inline sproutIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Sprout" (keyValueList CaseRules.LowerFirst b) []
+
+let inline sproutOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/SproutOutline" (keyValueList CaseRules.LowerFirst b) []
 
 let inline squareIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Square" (keyValueList CaseRules.LowerFirst b) []
@@ -9450,6 +9722,9 @@ let inline tabletAndroidIcon b : ReactElement =
 
 let inline tabletCellphoneIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/TabletCellphone" (keyValueList CaseRules.LowerFirst b) []
+
+let inline tableTennisIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/TableTennis" (keyValueList CaseRules.LowerFirst b) []
 
 let inline tabletIpadIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/TabletIpad" (keyValueList CaseRules.LowerFirst b) []
@@ -9886,6 +10161,9 @@ let inline treasureChestIcon b : ReactElement =
 let inline treeIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Tree" (keyValueList CaseRules.LowerFirst b) []
 
+let inline treeOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/TreeOutline" (keyValueList CaseRules.LowerFirst b) []
+
 let inline trelloIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Trello" (keyValueList CaseRules.LowerFirst b) []
 
@@ -10225,6 +10503,15 @@ let inline viewCarouselIcon b : ReactElement =
 let inline viewColumnIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/ViewColumn" (keyValueList CaseRules.LowerFirst b) []
 
+let inline viewComfyIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/ViewComfy" (keyValueList CaseRules.LowerFirst b) []
+
+let inline viewCompactIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/ViewCompact" (keyValueList CaseRules.LowerFirst b) []
+
+let inline viewCompactOutlineIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/ViewCompactOutline" (keyValueList CaseRules.LowerFirst b) []
+
 let inline viewDashboardIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/ViewDashboard" (keyValueList CaseRules.LowerFirst b) []
 
@@ -10342,6 +10629,9 @@ let inline vpnIcon b : ReactElement =
 let inline vuejsIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Vuejs" (keyValueList CaseRules.LowerFirst b) []
 
+let inline vuetifyIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/Vuetify" (keyValueList CaseRules.LowerFirst b) []
+
 let inline walkIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Walk" (keyValueList CaseRules.LowerFirst b) []
 
@@ -10431,6 +10721,9 @@ let inline wazeIcon b : ReactElement =
 
 let inline weatherCloudyIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/WeatherCloudy" (keyValueList CaseRules.LowerFirst b) []
+
+let inline weatherCloudyArrowRightIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/WeatherCloudyArrowRight" (keyValueList CaseRules.LowerFirst b) []
 
 let inline weatherFogIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/WeatherFog" (keyValueList CaseRules.LowerFirst b) []
@@ -10693,8 +10986,14 @@ let inline xboxControllerBatteryMediumIcon b : ReactElement =
 let inline xboxControllerBatteryUnknownIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/XboxControllerBatteryUnknown" (keyValueList CaseRules.LowerFirst b) []
 
+let inline xboxControllerMenuIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/XboxControllerMenu" (keyValueList CaseRules.LowerFirst b) []
+
 let inline xboxControllerOffIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/XboxControllerOff" (keyValueList CaseRules.LowerFirst b) []
+
+let inline xboxControllerViewIcon b : ReactElement = 
+  ofImport "default" "mdi-material-ui/XboxControllerView" (keyValueList CaseRules.LowerFirst b) []
 
 let inline xdaIcon b : ReactElement = 
   ofImport "default" "mdi-material-ui/Xda" (keyValueList CaseRules.LowerFirst b) []

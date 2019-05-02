@@ -37,5 +37,5 @@ If the bindings are outdated, please file an issue and I'll update them. It's qu
 1. Run `yarn upgrade --latest`
 2. Run `./fake.cmd build -t BuildTest`
 3. Check the HTML file in the `output` folder to verify that all icons render correctly
-4. Update the version number in `src/Fable.MaterialUI.MaterialDesignIcons/Fable.MaterialUI.MaterialDesignIcons.fsproj`
+4. Update the version number and release notes in `src/Fable.MaterialUI.MaterialDesignIcons/Fable.MaterialUI.MaterialDesignIcons.fsproj`
 5. Commit, tag (to trigger release from AppVeyor), and push

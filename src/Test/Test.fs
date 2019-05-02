@@ -1,6 +1,4 @@
 module Test
 
-open Fable.Import.Browser
-
-let container = document.getElementById("app")
-Fable.Import.ReactDom.render(ViewTree.root, container)
+let container = Browser.Dom.document.getElementById("app")
+Fable.React.ReactDomBindings.ReactDom.render(ViewTree.root, container)
