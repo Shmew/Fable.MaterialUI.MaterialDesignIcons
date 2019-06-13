@@ -2,13 +2,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <Authors>Christer van der Meeren</Authors>
     <Description>Fable bindings for mdi-material-ui.</Description>
     <PackageLicenseUrl>https://github.com/cmeeren/Fable.MaterialUI.MaterialDesignIcons/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cmeeren/Fable.MaterialUI.MaterialDesignIcons</PackageProjectUrl>
     <PackageTags>f# fable bindings material-ui</PackageTags>
-    <PackageReleaseNotes>Updated for Fable.Core 3, Fable.React 5, mdi-material-ui 5.11.0</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated for mdi-material-ui 6.0.0</PackageReleaseNotes>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
