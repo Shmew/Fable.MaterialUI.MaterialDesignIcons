@@ -6,7 +6,7 @@ build:
   verbosity: detailed
 
 cache:
-  - '%LOCALAPPDATA%\\Yarn -> yarn.lock'
+  - '%APPDATA%\npm-cache'
   - '%USERPROFILE%\.nuget\packages -> paket.lock'
 
 artifacts:

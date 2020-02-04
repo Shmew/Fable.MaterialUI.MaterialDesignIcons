@@ -23,8 +23,8 @@ Target.create "DotnetRestore" (fun _ ->
     "Fable.MaterialUI.MaterialDesignIcons.sln"
 )
 
-Target.create "YarnInstall" (fun _ ->
-  Yarn.install id
+Target.create "NpmInstall" (fun _ ->
+  Npm.install id
 )
 
 Target.create "Generate" (fun _ ->
@@ -112,7 +112,7 @@ Target.create "DevTest" (fun _ ->
 // Build order
 "Clean"
   ==> "DotnetRestore"
-  ==> "YarnInstall"
+  ==> "NpmInstall"
   ==> "Generate"
   ==> "Build"
   ==> "BuildTest"
