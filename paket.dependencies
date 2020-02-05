@@ -17,4 +17,4 @@ group FakeBuild
   clitool dotnet-fable
   nuget Fake.Core.Target
   nuget Fake.DotNet.Cli
-  nuget Fake.JavaScript.Yarn
+  nuget Fake.JavaScript.Npm

@@ -102,11 +102,11 @@ Target.create "Pack" (fun _ ->
 )
 
 Target.create "BuildTest" (fun _ ->
-  Yarn.exec "build" id
+  Npm.run "build" id
 )
 
 Target.create "DevTest" (fun _ ->
-  Yarn.exec "start" id
+  Npm.run "start" id
 )
 
 // Build order
